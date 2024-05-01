@@ -1,0 +1,123 @@
+/* Colores */
+:root {
+    --color-primario: #4CAF50; /* Verde */
+    --color-secundario: #FFC107; /* Amarillo */
+    --color-fondo: #ffffff; /* Blanco */
+    --color-texto: #333333; /* Gris oscuro */
+}
+
+/* Estilos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: var(--color-primario);
+    color: var(--color-fondo);
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    margin-right: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: var(--color-fondo);
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    color: var(--color-fondo);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--color-secundario);
+    color: var(--color-fondo);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FFA000; /* Amarillo más oscuro al pasar el mouse */
+}
+
+.btn-primary {
+    background-color: var(--color-primario);
+}
+
+.info-section {
+    padding: 80px 0;
+    background-color: var(--color-fondo);
+}
+
+.info-card {
+    background-color: #f8f9fa; /* Gris claro */
+    padding: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.donate-section {
+    background-color: var(--color-primario);
+    color: var(--color-fondo);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.donate-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.donate-text {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
